@@ -1,17 +1,13 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+### Java Build Artifacts ###
+.gradle
+build/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# dependencies
-/node_modules
-/bower_components
-
-# IDEs and editors
-/.idea
-.project
+### VS Code ###
+.vscode/
 .classpath
-*.launch
+.project
 .settings/
-
-
-#System Files
-.DS_Store
-Thumbs.db
